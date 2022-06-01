@@ -1,0 +1,12 @@
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\bin\Debug\net5.0\GESTDOC.BusinessObject.deps.json
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\bin\Debug\net5.0\GESTDOC.BusinessObject.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\bin\Debug\net5.0\GESTDOC.BusinessObject.pdb
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\GESTDOC.BusinessObject.csproj.AssemblyReference.cache
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\GESTDOC.BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\GESTDOC.BusinessObject.AssemblyInfoInputs.cache
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\GESTDOC.BusinessObject.AssemblyInfo.cs
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\GESTDOC.BusinessObject.csproj.CoreCompileInputs.cache
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\GESTDOC.BusinessObject.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\refint\GESTDOC.BusinessObject.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\GESTDOC.BusinessObject.pdb
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\ref\GESTDOC.BusinessObject.dll

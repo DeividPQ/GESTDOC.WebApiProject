@@ -1,0 +1,289 @@
+﻿++Solución "GESTDOC.WebApiProject" ‎(5 de 5 proyectos)
+i:{00000000-0000-0000-0000-000000000000}:GESTDOC.WebApiProject.sln
+++GESTDOC.FirmaDigital
+i:{00000000-0000-0000-0000-000000000000}:GESTDOC.FirmaDigital
+++Properties
+i:{a82452ae-b581-4296-9e47-e0fa78b34e7f}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.firmadigital\properties\
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\properties\
+++Referencias
+i:{a82452ae-b581-4296-9e47-e0fa78b34e7f}:
+++Class1.cs
+i:{a82452ae-b581-4296-9e47-e0fa78b34e7f}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.firmadigital\class1.cs
+++AssemblyInfo.cs
+i:{a82452ae-b581-4296-9e47-e0fa78b34e7f}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.firmadigital\properties\assemblyinfo.cs
+++Microsoft.CSharp
+i:{a82452ae-b581-4296-9e47-e0fa78b34e7f}:
+++System
+i:{a82452ae-b581-4296-9e47-e0fa78b34e7f}:
+++System.Core
+i:{a82452ae-b581-4296-9e47-e0fa78b34e7f}:
+++System.Data
+i:{a82452ae-b581-4296-9e47-e0fa78b34e7f}:
+++System.Data.DataSetExtensions
+i:{a82452ae-b581-4296-9e47-e0fa78b34e7f}:
+++System.Net.Http
+i:{a82452ae-b581-4296-9e47-e0fa78b34e7f}:
+++System.Xml
+i:{a82452ae-b581-4296-9e47-e0fa78b34e7f}:
+++System.Xml.Linq
+i:{a82452ae-b581-4296-9e47-e0fa78b34e7f}:
+++GESTDOC.WebApi
+i:{00000000-0000-0000-0000-000000000000}:GESTDOC.WebApi
+++Connected Services 
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:>704
+++Dependencias
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:>703
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:>518
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:>517
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:>519
+++Analizadores
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:analizadores
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:analizadores
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:analizadores
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:analizadores
+++Ensamblados
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:ensamblados
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:ensamblados
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:ensamblados
+++LibreriaBSNetCore.v1
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\librerias\libreriabsnetcore.v1.dll
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\libreriabsnetcore.v1
+++Marcos de trabajo
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:marcos de trabajo
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:marcos de trabajo
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:marcos de trabajo
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:marcos de trabajo
+++Microsoft.AspNetCore.App
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\microsoft.netcore.app
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\microsoft.netcore.app
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\microsoft.netcore.app
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\microsoft.netcore.app
+++Paquetes
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:paquetes
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:paquetes
+++EnterpriseLibrary.Data.NetCore (6.3.2)
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:>758
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:>726
+++log4net (2.0.12)
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:>759
+++Microsoft.Extensions.Configuration.Json (6.0.0)
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:>761
+++Newtonsoft.Json (13.0.1)
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:>757
+++Swashbuckle.AspNetCore (5.6.3)
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:>756
+++System.Configuration.ConfigurationManager (6.0.0)
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:>760
+++System.Management (6.0.0)
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:>762
+++Proyectos
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:proyectos
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:proyectos
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:proyectos
+++Controllers
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\
+++Config
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\config\
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\config\
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\config\
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\config\
+++Global
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\global\
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\global\
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\global\
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\global\
+++Historial
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\historial\
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\historial\
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\historial\
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\historial\
+++Seguridad
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\seguridad\
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\seguridad\
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\seguridad\
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\seguridad\
+++Acceso_PerfilController.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\seguridad\acceso_perfilcontroller.cs
+++AccesoController.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\seguridad\accesocontroller.cs
+++PerfilController.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\seguridad\perfilcontroller.cs
+++UsuarioController.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\seguridad\usuariocontroller.cs
+++appsettings.Development.json
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\appsettings.development.json
+++appsettings.json
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\appsettings.json
+++Program.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\program.cs
+++Startup.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\startup.cs
+++WeatherForecast.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\weatherforecast.cs
+++No se detectaron dependencias de servicio
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:>705
+++Microsoft.AspNetCore.Analyzers
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:c:\users\11356\.nuget\packages\system.text.json\6.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+++GESTDOC.BusinessObject
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\bin\debug\net5.0\gestdoc.businessobject.dll
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\gestdoc.businessobject.csproj
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\gestdoc.businessobject.csproj
+i:{00000000-0000-0000-0000-000000000000}:GESTDOC.BusinessObject
+++GESTDOC.FacadeNet
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\bin\debug\net5.0\gestdoc.facadenet.dll
+i:{00000000-0000-0000-0000-000000000000}:GESTDOC.FacadeNet
+++launchSettings.json
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\properties\launchsettings.json
+++Configuracion_SistemaController.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\config\configuracion_sistemacontroller.cs
+++Configuracion_UsuarioController.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\config\configuracion_usuariocontroller.cs
+++Aprobador_AreaController.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\global\aprobador_areacontroller.cs
+++AreaController.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\global\areacontroller.cs
+++Documento_AprobController.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\global\documento_aprobcontroller.cs
+++DocumentoController.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\global\documentocontroller.cs
+++PersonaController.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\global\personacontroller.cs
+++PlantillaController.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\global\plantillacontroller.cs
+++TablaController.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\global\tablacontroller.cs
+++Tipo_DocumentoController.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\global\tipo_documentocontroller.cs
+++Documento_FinalController.cs
+i:{c859088f-b406-4cc8-a772-2ee26a986f21}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.webapi\controllers\historial\documento_finalcontroller.cs
+++GESTDOC.DataObjectsNet
+i:{00000000-0000-0000-0000-000000000000}:GESTDOC.DataObjectsNet
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\gestdoc.dataobjectsnet.csproj
+++DataAccessBase.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\dataaccessbase.cs
+++Configuracion_SistemaDao.gen.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\config\configuracion_sistemadao.gen.cs
+++Configuracion_UsuarioDao.gen.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\config\configuracion_usuariodao.gen.cs
+++Aprobador_AreaDao.gen.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\global\aprobador_areadao.gen.cs
+++AreaDao.gen.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\global\areadao.gen.cs
+++Documento_AprobDao.gen.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\global\documento_aprobdao.gen.cs
+++DocumentoDao.gen.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\global\documentodao.gen.cs
+++PersonaDao.gen.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\global\personadao.gen.cs
+++PlantillaDao.gen.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\global\plantilladao.gen.cs
+++TablaDao.gen.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\global\tabladao.gen.cs
+++Tipo_DocumentoDao.gen.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\global\tipo_documentodao.gen.cs
+++Documento_FinalDao.gen.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\historial\documento_finaldao.gen.cs
+++Acceso_PerfilDao.gen.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\seguridad\acceso_perfildao.gen.cs
+++AccesoDao.gen.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\seguridad\accesodao.gen.cs
+++PerfilDao.gen.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\seguridad\perfildao.gen.cs
+++UsuarioDao.gen.cs
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\seguridad\usuariodao.gen.cs
+++LibreriaBSNet.v3
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\libreriabsnet.v3
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\libreriabsnet.v3
+++Microsoft.Practices.EnterpriseLibrary.Data
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.dataobjectsnet\microsoft.practices.enterpriselibrary.data
+++Microsoft.Extensions.Configuration (5.0.0)
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:>729
+++Microsoft.Extensions.Configuration.Json (5.0.0)
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:>728
+++Microsoft.QualityTools.Testing.Fakes (16.11.230815)
+i:{2877dcca-3b01-452a-a9ea-3bc4cef5993d}:>727
+++Acceso_PerfilFacade.gen.cs
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\seguridad\acceso_perfilfacade.gen.cs
+++AccesoFacade.gen.cs
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\seguridad\accesofacade.gen.cs
+++PerfilFacade.gen.cs
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\seguridad\perfilfacade.gen.cs
+++UsuarioFacade.gen.cs
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\seguridad\usuariofacade.gen.cs
+++Configuracion_SistemaFacade.gen.cs
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\config\configuracion_sistemafacade.gen.cs
+++Configuracion_UsuarioFacade.gen.cs
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\config\configuracion_usuariofacade.gen.cs
+++Aprobador_AreaFacade.gen.cs
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\global\aprobador_areafacade.gen.cs
+++AreaFacade.gen.cs
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\global\areafacade.gen.cs
+++Documento_AprobFacade.gen.cs
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\global\documento_aprobfacade.gen.cs
+++DocumentoFacade.gen.cs
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\global\documentofacade.gen.cs
+++PersonaFacade.gen.cs
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\global\personafacade.gen.cs
+++PlantillaFacade.gen.cs
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\global\plantillafacade.gen.cs
+++TablaFacade.gen.cs
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\global\tablafacade.gen.cs
+++Tipo_DocumentoFacade.gen.cs
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\global\tipo_documentofacade.gen.cs
+++Documento_FinalFacade.gen.cs
+i:{3d1d0f35-60f2-4c19-8564-25e8b7dc8e7d}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.facadenet\historial\documento_finalfacade.gen.cs
+++CConfiguracion_Sistema.gen.cs
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\config\cconfiguracion_sistema.gen.cs
+++CConfiguracion_Usuario.gen.cs
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\config\cconfiguracion_usuario.gen.cs
+++CAprobador_Area.gen.cs
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\global\caprobador_area.gen.cs
+++CArea.gen.cs
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\global\carea.gen.cs
+++CDocumento.gen.cs
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\global\cdocumento.gen.cs
+++CDocumento_Aprob.gen.cs
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\global\cdocumento_aprob.gen.cs
+++CPersona.gen.cs
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\global\cpersona.gen.cs
+++CPlantilla.gen.cs
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\global\cplantilla.gen.cs
+++CTabla.gen.cs
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\global\ctabla.gen.cs
+++CTipo_Documento.gen.cs
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\global\ctipo_documento.gen.cs
+++CDocumento_Final.gen.cs
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\historial\cdocumento_final.gen.cs
+++CAcceso.gen.cs
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\seguridad\cacceso.gen.cs
+++CAcceso_Perfil.gen.cs
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\seguridad\cacceso_perfil.gen.cs
+++CPerfil.gen.cs
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\seguridad\cperfil.gen.cs
+++CUsuario.gen.cs
+i:{c72d130c-93f4-4d6f-9f5a-68dfc8d0c17b}:d:\proyecto incatops\gestdoc.webapiproject\gestdoc.businessobject\seguridad\cusuario.gen.cs
+++Documentos de script
+++VM5
+++index.html
+++swagger-ui-bundle.js
+++swagger-ui-standalone-preset.js
+++aspnetcore-browser-refresh.js
+++browserLink

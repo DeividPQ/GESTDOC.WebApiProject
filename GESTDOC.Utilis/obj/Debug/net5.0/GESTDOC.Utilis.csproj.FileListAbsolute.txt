@@ -1,0 +1,12 @@
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.Utilis\bin\Debug\net5.0\GESTDOC.Utilis.deps.json
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.Utilis\bin\Debug\net5.0\GESTDOC.Utilis.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.Utilis\bin\Debug\net5.0\GESTDOC.Utilis.pdb
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.Utilis\obj\Debug\net5.0\GESTDOC.Utilis.csproj.AssemblyReference.cache
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.Utilis\obj\Debug\net5.0\GESTDOC.Utilis.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.Utilis\obj\Debug\net5.0\GESTDOC.Utilis.AssemblyInfoInputs.cache
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.Utilis\obj\Debug\net5.0\GESTDOC.Utilis.AssemblyInfo.cs
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.Utilis\obj\Debug\net5.0\GESTDOC.Utilis.csproj.CoreCompileInputs.cache
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.Utilis\obj\Debug\net5.0\GESTDOC.Utilis.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.Utilis\obj\Debug\net5.0\refint\GESTDOC.Utilis.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.Utilis\obj\Debug\net5.0\GESTDOC.Utilis.pdb
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.Utilis\obj\Debug\net5.0\ref\GESTDOC.Utilis.dll

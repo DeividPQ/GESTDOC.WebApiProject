@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GESTDOC.BusinessObject\GESTDOC.BusinessObjects.csproj" />
+    <ProjectReference Include="..\GESTDOC.DataObjectsNet\GESTDOC.DataObjectsNet.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LibreriaBSNet.v3">
+      <HintPath>..\Librerias\LibreriaBSNet.v3.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

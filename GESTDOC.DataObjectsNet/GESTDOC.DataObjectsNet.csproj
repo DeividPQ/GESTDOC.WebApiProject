@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EnterpriseLibrary.Data.NetCore" Version="6.3.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+    <PackageReference Include="Microsoft.QualityTools.Testing.Fakes" Version="16.11.230815" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GESTDOC.BusinessObject\GESTDOC.BusinessObjects.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LibreriaBSNet.v3">
+      <HintPath>..\Librerias\LibreriaBSNet.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="LibreriaBSNetCore.v1">
+      <HintPath>..\Librerias\LibreriaBSNetCore.v1.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\Librerias\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

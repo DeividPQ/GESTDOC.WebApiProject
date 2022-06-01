@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GESTDOC.WebApi", "GESTDOC.WebApi\GESTDOC.WebApi.csproj", "{C859088F-B406-4CC8-A772-2EE26A986F21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GESTDOC.BusinessObjects", "GESTDOC.BusinessObject\GESTDOC.BusinessObjects.csproj", "{C72D130C-93F4-4D6F-9F5A-68DFC8D0C17B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GESTDOC.DataObjectsNet", "GESTDOC.DataObjectsNet\GESTDOC.DataObjectsNet.csproj", "{2877DCCA-3B01-452A-A9EA-3BC4CEF5993D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GESTDOC.FacadeNet", "GESTDOC.FacadeNet\GESTDOC.FacadeNet.csproj", "{3D1D0F35-60F2-4C19-8564-25E8B7DC8E7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GESTDOC.FirmaDigital", "GESTDOC.FirmaDigital\GESTDOC.FirmaDigital.csproj", "{A82452AE-B581-4296-9E47-E0FA78B34E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GESTDOC.Utilis", "GESTDOC.Utilis\GESTDOC.Utilis.csproj", "{1B48DE16-C15B-4EEF-AD90-1E2108592839}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C859088F-B406-4CC8-A772-2EE26A986F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C859088F-B406-4CC8-A772-2EE26A986F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C859088F-B406-4CC8-A772-2EE26A986F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C859088F-B406-4CC8-A772-2EE26A986F21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C72D130C-93F4-4D6F-9F5A-68DFC8D0C17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72D130C-93F4-4D6F-9F5A-68DFC8D0C17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72D130C-93F4-4D6F-9F5A-68DFC8D0C17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72D130C-93F4-4D6F-9F5A-68DFC8D0C17B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2877DCCA-3B01-452A-A9EA-3BC4CEF5993D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2877DCCA-3B01-452A-A9EA-3BC4CEF5993D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2877DCCA-3B01-452A-A9EA-3BC4CEF5993D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2877DCCA-3B01-452A-A9EA-3BC4CEF5993D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1D0F35-60F2-4C19-8564-25E8B7DC8E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1D0F35-60F2-4C19-8564-25E8B7DC8E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1D0F35-60F2-4C19-8564-25E8B7DC8E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1D0F35-60F2-4C19-8564-25E8B7DC8E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82452AE-B581-4296-9E47-E0FA78B34E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82452AE-B581-4296-9E47-E0FA78B34E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82452AE-B581-4296-9E47-E0FA78B34E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82452AE-B581-4296-9E47-E0FA78B34E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B48DE16-C15B-4EEF-AD90-1E2108592839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B48DE16-C15B-4EEF-AD90-1E2108592839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B48DE16-C15B-4EEF-AD90-1E2108592839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B48DE16-C15B-4EEF-AD90-1E2108592839}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BB562B6-EFEC-490A-9915-3E8D073DEB7B}
+	EndGlobalSection
+EndGlobal

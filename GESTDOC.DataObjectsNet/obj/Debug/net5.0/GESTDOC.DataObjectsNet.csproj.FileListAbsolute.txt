@@ -1,0 +1,17 @@
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\bin\Debug\net5.0\GESTDOC.DataObjectsNet.deps.json
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\bin\Debug\net5.0\GESTDOC.DataObjectsNet.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\bin\Debug\net5.0\GESTDOC.DataObjectsNet.pdb
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\bin\Debug\net5.0\LibreriaBSNet.v3.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\bin\Debug\net5.0\LibreriaBSNetCore.v1.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\obj\Debug\net5.0\GESTDOC.DataObjectsNet.csproj.AssemblyReference.cache
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\obj\Debug\net5.0\GESTDOC.DataObjectsNet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\obj\Debug\net5.0\GESTDOC.DataObjectsNet.AssemblyInfoInputs.cache
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\obj\Debug\net5.0\GESTDOC.DataObjectsNet.AssemblyInfo.cs
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\obj\Debug\net5.0\GESTDOC.DataObjectsNet.csproj.CoreCompileInputs.cache
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\obj\Debug\net5.0\GESTDOC.DataObjectsNet.csproj.CopyComplete
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\obj\Debug\net5.0\GESTDOC.DataObjectsNet.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\obj\Debug\net5.0\refint\GESTDOC.DataObjectsNet.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\obj\Debug\net5.0\GESTDOC.DataObjectsNet.pdb
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\obj\Debug\net5.0\ref\GESTDOC.DataObjectsNet.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\bin\Debug\net5.0\GESTDOC.BusinessObjects.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.DataObjectsNet\bin\Debug\net5.0\GESTDOC.BusinessObjects.pdb

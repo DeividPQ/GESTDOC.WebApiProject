@@ -1,0 +1,356 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.WebApi\\GESTDOC.WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.BusinessObject\\GESTDOC.BusinessObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.BusinessObject\\GESTDOC.BusinessObjects.csproj",
+        "projectName": "GESTDOC.BusinessObjects",
+        "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.BusinessObject\\GESTDOC.BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\11356\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.BusinessObject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\11356\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.DataObjectsNet\\GESTDOC.DataObjectsNet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.DataObjectsNet\\GESTDOC.DataObjectsNet.csproj",
+        "projectName": "GESTDOC.DataObjectsNet",
+        "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.DataObjectsNet\\GESTDOC.DataObjectsNet.csproj",
+        "packagesPath": "C:\\Users\\11356\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.DataObjectsNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\11356\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.BusinessObject\\GESTDOC.BusinessObjects.csproj": {
+                "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.BusinessObject\\GESTDOC.BusinessObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EnterpriseLibrary.Data.NetCore": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.QualityTools.Testing.Fakes": {
+              "target": "Package",
+              "version": "[16.11.230815, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FacadeNet\\GESTDOC.FacadeNet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FacadeNet\\GESTDOC.FacadeNet.csproj",
+        "projectName": "GESTDOC.FacadeNet",
+        "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FacadeNet\\GESTDOC.FacadeNet.csproj",
+        "packagesPath": "C:\\Users\\11356\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FacadeNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\11356\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.BusinessObject\\GESTDOC.BusinessObjects.csproj": {
+                "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.BusinessObject\\GESTDOC.BusinessObjects.csproj"
+              },
+              "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.DataObjectsNet\\GESTDOC.DataObjectsNet.csproj": {
+                "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.DataObjectsNet\\GESTDOC.DataObjectsNet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.Utilis\\GESTDOC.Utilis.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.Utilis\\GESTDOC.Utilis.csproj",
+        "projectName": "GESTDOC.Utilis",
+        "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.Utilis\\GESTDOC.Utilis.csproj",
+        "packagesPath": "C:\\Users\\11356\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.Utilis\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\11356\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.WebApi\\GESTDOC.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.WebApi\\GESTDOC.WebApi.csproj",
+        "projectName": "GESTDOC.WebApi",
+        "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.WebApi\\GESTDOC.WebApi.csproj",
+        "packagesPath": "C:\\Users\\11356\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\11356\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.BusinessObject\\GESTDOC.BusinessObjects.csproj": {
+                "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.BusinessObject\\GESTDOC.BusinessObjects.csproj"
+              },
+              "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FacadeNet\\GESTDOC.FacadeNet.csproj": {
+                "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FacadeNet\\GESTDOC.FacadeNet.csproj"
+              },
+              "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.Utilis\\GESTDOC.Utilis.csproj": {
+                "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.Utilis\\GESTDOC.Utilis.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EnterpriseLibrary.Data.NetCore": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
