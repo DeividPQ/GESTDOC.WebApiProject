@@ -41,13 +41,16 @@ namespace GESTDOC.BusinessObjects.Global
         [DataMember()]
         public String UsuarioModif { get; set; }
 
+        [DataMember()]
+        public String Cod_Tipo { get; set; }
+
         #region Constructores
         // Constructores
         public CplantillaArchivo()
         {
         }
 
-        public CplantillaArchivo(String CodPlantilla_, String Des_Plantilla_, String Titulo_, IFormFile Files_, byte[] BinArchivo_, String Nombre_Archivo_, Char Estado_, String UsuarioCrea_, String UsuarioModif_)
+        public CplantillaArchivo(String CodPlantilla_, String Des_Plantilla_, String Titulo_, IFormFile Files_, byte[] BinArchivo_, String Nombre_Archivo_, Char Estado_, String UsuarioCrea_, String UsuarioModif_, String Cod_Tipo_)
         {
             CodPlantilla = CodPlantilla_;
             Des_Plantilla = Des_Plantilla_;
@@ -58,6 +61,7 @@ namespace GESTDOC.BusinessObjects.Global
             Estado = Estado_;
             UsuarioCrea = UsuarioCrea_;
             UsuarioModif = UsuarioModif_;
+            Cod_Tipo = Cod_Tipo_;
         }
         #endregion
     }

@@ -29,7 +29,7 @@ namespace GESTDOC.BusinessObjects.Global
         public String Titulo {get;set;}
 
         [DataMember()]
-        public byte[] BinArchivo {get;set;}
+        public Byte[] BinArchivo {get;set;}
         
         [DataMember()]
         public String Nombre_Archivo {get;set;}
@@ -48,14 +48,17 @@ namespace GESTDOC.BusinessObjects.Global
         
         [DataMember()]
         public DateTime FechaModif {get;set;}
-        
+
+        [DataMember()]
+        public String Cod_Tipo { get; set; }
+
         #region Constructores
         // Constructores
         public CPlantilla()
         {
         }
         
-        public CPlantilla(String CodPlantilla_, String Des_Plantilla_, String Titulo_, byte[] BinArchivo_, String Nombre_Archivo_, Char Estado_, String UsuarioCrea_, DateTime FechaCrea_, String UsuarioModif_, DateTime FechaModif_)
+        public CPlantilla(String CodPlantilla_, String Des_Plantilla_, String Titulo_, byte[] BinArchivo_, String Nombre_Archivo_, Char Estado_, String UsuarioCrea_, DateTime FechaCrea_, String UsuarioModif_, DateTime FechaModif_, String Cod_Tipo_)
         {
             CodPlantilla = CodPlantilla_;
             Des_Plantilla = Des_Plantilla_;
@@ -67,6 +70,7 @@ namespace GESTDOC.BusinessObjects.Global
             FechaCrea = FechaCrea_;
             UsuarioModif = UsuarioModif_;
             FechaModif = FechaModif_;
+            Cod_Tipo = Cod_Tipo_;
         }
         #endregion
     }

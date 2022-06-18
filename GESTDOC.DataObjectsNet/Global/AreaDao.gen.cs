@@ -40,10 +40,8 @@ namespace GESTDOC.DataObjectsNet.Global
             Db.AddInParameter(dbCmd, "Tipo", DbType.String, oArea.Tipo);
             Db.AddInParameter(dbCmd, "CodParent", DbType.String, oArea.CodParent);
             Db.AddInParameter(dbCmd, "Estado", DbType.String, oArea.Estado);
-            Db.AddInParameter(dbCmd, "FechaCrea", DbType.DateTime, oArea.FechaCrea);
             Db.AddInParameter(dbCmd, "UsuarioCrea", DbType.String, oArea.UsuarioCrea);
             Db.AddInParameter(dbCmd, "UsuarioModif", DbType.String, oArea.UsuarioModif);
-            Db.AddInParameter(dbCmd, "FechaModif", DbType.DateTime, oArea.FechaModif);
             // --- Ejecutando procedimiento almacenado
             return Db.ExecuteNonQuery(dbCmd) > 0;
             } 

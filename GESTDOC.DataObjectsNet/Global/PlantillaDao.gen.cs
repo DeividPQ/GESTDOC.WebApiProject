@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Data;
+using System.Data.SqlClient;
 using System.Data.Common;
 using GESTDOC.BusinessObjects.Global;
 using Microsoft.Practices.EnterpriseLibrary.Data;
@@ -20,12 +21,12 @@ namespace GESTDOC.DataObjectsNet.Global
         
         public virtual CPlantilla getPlantilla(DataRow dr)
         {
-            return new CPlantilla(Convert.ToString(dr["CodPlantilla"]),Convert.ToString(dr["Des_Plantilla"]),Convert.ToString(dr["Titulo"]),(byte[])(dr["BinArchivo"]),Convert.ToString(dr["Nombre_Archivo"]),Convert.ToChar(dr["Estado"]),Convert.ToString(dr["UsuarioCrea"]),Convert.ToDateTime(dr["FechaCrea"]),Convert.ToString(dr["UsuarioModif"]),Convert.ToDateTime(dr["FechaModif"]));
+            return new CPlantilla(Convert.ToString(dr["CodPlantilla"]),Convert.ToString(dr["Des_Plantilla"]),Convert.ToString(dr["Titulo"]),(byte[])(dr["BinArchivo"]),Convert.ToString(dr["Nombre_Archivo"]),Convert.ToChar(dr["Estado"]),Convert.ToString(dr["UsuarioCrea"]),Convert.ToDateTime(dr["FechaCrea"]),Convert.ToString(dr["UsuarioModif"]),Convert.ToDateTime(dr["FechaModif"]), Convert.ToString(dr["Cod_Tipo"]));
         }
         
         public virtual CPlantilla getPlantilla(IDataReader dr)
         {
-            return new CPlantilla(Convert.ToString(dr["CodPlantilla"]),Convert.ToString(dr["Des_Plantilla"]),Convert.ToString(dr["Titulo"]),(byte[])(dr["BinArchivo"]),Convert.ToString(dr["Nombre_Archivo"]),Convert.ToChar(dr["Estado"]),Convert.ToString(dr["UsuarioCrea"]),Convert.ToDateTime(dr["FechaCrea"]),Convert.ToString(dr["UsuarioModif"]),Convert.ToDateTime(dr["FechaModif"]));
+            return new CPlantilla(Convert.ToString(dr["CodPlantilla"]),Convert.ToString(dr["Des_Plantilla"]),Convert.ToString(dr["Titulo"]),(byte[])(dr["BinArchivo"]),Convert.ToString(dr["Nombre_Archivo"]),Convert.ToChar(dr["Estado"]),Convert.ToString(dr["UsuarioCrea"]),Convert.ToDateTime(dr["FechaCrea"]),Convert.ToString(dr["UsuarioModif"]),Convert.ToDateTime(dr["FechaModif"]), Convert.ToString(dr["Cod_Tipo"]));
         }
         
         #region Metodos Principales
@@ -40,6 +41,7 @@ namespace GESTDOC.DataObjectsNet.Global
             Db.AddInParameter(dbCmd, "Estado", DbType.String, oPlantilla.Estado);
             Db.AddInParameter(dbCmd, "UsuarioCrea", DbType.String, oPlantilla.UsuarioCrea);
             Db.AddInParameter(dbCmd, "UsuarioModif", DbType.String, oPlantilla.UsuarioModif);
+            Db.AddInParameter(dbCmd, "Cod_Tipo", DbType.String, oPlantilla.Cod_Tipo);
             // --- Ejecutando procedimiento almacenado
             return Db.ExecuteNonQuery(dbCmd) > 0;
             } 
@@ -84,9 +86,9 @@ namespace GESTDOC.DataObjectsNet.Global
         {
             using (IDataReader dr = Db.ExecuteReader(CommandType.StoredProcedure, "Global.spu_Plantilla_Listar")){
             IList<CPlantilla> list = new List<CPlantilla>();
-            while (dr.Read())
-            list.Add(getPlantilla(dr));
-            return list;
+                while (dr.Read())
+                list.Add(getPlantilla(dr));
+                return list;
             }
         }
         public virtual string MaxValor()

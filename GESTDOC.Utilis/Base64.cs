@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using MSWord = Microsoft.Office.Interop.Word;
 
 namespace GESTDOC.Utilis
 {
@@ -10,6 +11,14 @@ namespace GESTDOC.Utilis
             byte[] arreglo = null;
             arreglo = File.ReadAllBytes(A);
             return arreglo;
+        }
+        public static string AbrirArchivo(String ruta)
+        {
+            var application = new MSWord.Application();
+            var originalDocument = application.Documents.Open(ruta);
+            originalDocument.ActiveWindow.Selection.WholeStory();
+            var originalText = originalDocument.ActiveWindow.Selection;
+            return originalText.Text;
         }
         public static string enc64(byte[] buffer, int longitud, string separador)
         {

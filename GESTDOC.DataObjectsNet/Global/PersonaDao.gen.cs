@@ -33,7 +33,7 @@ namespace GESTDOC.DataObjectsNet.Global
         #region Metodos Principales
         public virtual bool Grabar(CPersona oPersona)
         {
-            using (DbCommand dbCmd = Db.GetStoredProcCommand("Global.Persona_Guardar")){
+            using (DbCommand dbCmd = Db.GetStoredProcCommand("Global.spu_Persona_Guardar")){
             Db.AddInParameter(dbCmd, "CodPersona", DbType.String, oPersona.CodPersona);
             Db.AddInParameter(dbCmd, "Nombres", DbType.String, oPersona.Nombres);
             Db.AddInParameter(dbCmd, "Apellido_Paterno", DbType.String, oPersona.Apellido_Paterno);
@@ -58,12 +58,12 @@ namespace GESTDOC.DataObjectsNet.Global
         
         public virtual int Eliminar(String CodPersona)
         {
-            return Db.ExecuteNonQuery("Global.Persona_Eliminar",CodPersona);
+            return Db.ExecuteNonQuery("Global.spu_Persona_Eliminar", CodPersona);
         }
         
         public virtual CPersona Recuperar(String CodPersona)
         {
-            DataTable dtDatos = Db.ExecuteDataSet("Global.Persona_Recuperar",CodPersona).Tables[0];
+            DataTable dtDatos = Db.ExecuteDataSet("Global.spu_Persona_Recuperar", CodPersona).Tables[0];
             if (dtDatos.Rows.Count > 0)
             return getPersona(dtDatos.Rows[0]);
             else
@@ -72,33 +72,91 @@ namespace GESTDOC.DataObjectsNet.Global
         
         public virtual bool Existe(String CodPersona)
         {
-            DataTable dtDatos = Db.ExecuteDataSet("Global.Persona_Recuperar",CodPersona).Tables[0];
+            DataTable dtDatos = Db.ExecuteDataSet("Global.spu_Persona_Recuperar", CodPersona).Tables[0];
             return dtDatos.Rows.Count > 0;
         }
         
         public virtual bool Existe(String CodPersona, out CPersona oPersona)
         {
-            DataTable dtDatos = Db.ExecuteDataSet("Global.Persona_Recuperar",CodPersona).Tables[0];
+            DataTable dtDatos = Db.ExecuteDataSet("Global.spu_Persona_Recuperar", CodPersona).Tables[0];
             if (dtDatos.Rows.Count > 0)
             {
-            oPersona = getPersona(dtDatos.Rows[0]);
-            return true;
+                oPersona = getPersona(dtDatos.Rows[0]);
+                return true;
              }
             else
             {
-            oPersona = new CPersona();
-            return false;
+                oPersona = new CPersona();
+                return false;
             }
         }
         
         public virtual IList<CPersona> Listar()
         {
-            using (IDataReader dr = Db.ExecuteReader(CommandType.StoredProcedure,"Global.Persona_Listar")){
+            using (IDataReader dr = Db.ExecuteReader(CommandType.StoredProcedure, "Global.spu_Persona_Listar")){
             IList<CPersona> list = new List<CPersona>();
             while (dr.Read())
             list.Add(getPersona(dr));
             return list;
             }
+        }
+        
+
+        public virtual IList<CPersona> Lista_X_Area(string CodArea)
+        {
+
+            DataTable dtDatos = Db.ExecuteDataSet("Global.spu_Persona_Lista_X_Area", CodArea).Tables[0];
+            {
+                IList<CPersona> list = new List<CPersona>();
+                if (dtDatos.Rows.Count > 0)
+                {
+                    for (int i=0;i<dtDatos.Rows.Count;i++)
+                    {
+                        list.Add(getPersona(dtDatos.Rows[i]));
+                    }                   
+                }
+                return list;
+            }
+        }
+        public virtual IList<CPersonaArea> PersonaBuscar(string CodPersona, string Nombres, string Apellido_Paterno, string Apellido_Materno, string CodArea, string Nom_Area,String Nivel)
+        {
+
+            DataTable dtDatos = Db.ExecuteDataSet("Global.spu_Persona_Area_Lista", CodPersona, Nombres,Apellido_Paterno,Apellido_Materno,CodArea,Nom_Area,Nivel).Tables[0];
+            {
+                IList<CPersonaArea> list = new List<CPersonaArea>();
+                if (dtDatos.Rows.Count > 0)
+                {
+                    for (int i = 0; i < dtDatos.Rows.Count; i++)
+                    {
+                        list.Add(getPersonaArea(dtDatos.Rows[i]));
+                    }
+                }
+                return list;
+            }
+        }
+        public virtual CPersonaArea getPersonaArea(DataRow dr)
+        {
+            return new CPersonaArea(Convert.ToString(dr["CodPersona"]), Convert.ToString(dr["NombresAp"]), Convert.ToString(dr["CodArea"]), Convert.ToString(dr["Nom_Area"]), Convert.ToString(dr["Nivel"]));
+        }
+        public virtual IList<CPersonaXAr> ListaPersonaXArea(string CodPersona, string Nombres, string Apellido_Paterno, string Apellido_Materno, string CodArea, string Nom_Area)
+        {
+
+            DataTable dtDatos = Db.ExecuteDataSet("Global.spu_ListaPersonas", CodPersona, Nombres, Apellido_Paterno, Apellido_Materno, CodArea, Nom_Area).Tables[0];
+            {
+                IList<CPersonaXAr> list = new List<CPersonaXAr>();
+                if (dtDatos.Rows.Count > 0)
+                {
+                    for (int i = 0; i < dtDatos.Rows.Count; i++)
+                    {
+                        list.Add(getPersonaxA(dtDatos.Rows[i]));
+                    }
+                }
+                return list;
+            }
+        }
+        public virtual CPersonaXAr getPersonaxA(DataRow dr)
+        {
+            return new CPersonaXAr(Convert.ToString(dr["CodPersona"]), Convert.ToString(dr["NombresAp"]), Convert.ToString(dr["CodArea"]), Convert.ToString(dr["Nom_Area"]));
         }
         #endregion
     }

@@ -140,6 +140,10 @@ namespace GESTDOC.FacadeNet.Global
         {
             return documento.Listar();
         }
+        public virtual string MaxDocumento()
+        {
+            return documento.MaxDocumento();
+        }
         #endregion
     }
 }

@@ -113,6 +113,23 @@ namespace GESTDOC.FacadeNet.Global
         {
             return persona.Listar();
         }
+
+        [DataObjectMethod(DataObjectMethodType.Select)]
+        public virtual IList<CPersona> Lista_X_Area(string CodArea)
+        {
+            return persona.Lista_X_Area(CodArea);
+        }
+
+        [DataObjectMethod(DataObjectMethodType.Select)]
+        public virtual IList<CPersonaArea> PersonaBuscar(string CodPersona, string Nombres, string Apellido_Paterno, string Apellido_Materno, string CodArea, string Nom_Area, String Nivel)
+        {
+            return persona.PersonaBuscar(CodPersona, Nombres, Apellido_Paterno, Apellido_Materno, CodArea, Nom_Area,Nivel);
+        }
+        
+        public virtual IList<CPersonaXAr> ListaPersonaXArea(string CodPersona, string Nombres, string Apellido_Paterno, string Apellido_Materno, string CodArea, string Nom_Area)
+        {
+            return persona.ListaPersonaXArea(CodPersona, Nombres, Apellido_Paterno, Apellido_Materno, CodArea, Nom_Area);
+        }
         #endregion
     }
 }

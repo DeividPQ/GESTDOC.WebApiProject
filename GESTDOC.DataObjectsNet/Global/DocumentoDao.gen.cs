@@ -22,12 +22,12 @@ namespace GESTDOC.DataObjectsNet.Global
         
         public virtual CDocumento getDocumento(DataRow dr)
         {
-            return new CDocumento(Convert.ToString(dr["CodDocumento"]),Convert.ToInt16(dr["Version"]),Convert.ToString(dr["CodPersona"]),Convert.ToString(dr["CodArea"]),Convert.ToString(dr["CodDocumentoFinal"]),Convert.ToString(dr["Cod_Tipo"]),Convert.ToString(dr["Titulo"]),Convert.ToString(dr["Descripcion"]),Convert.ToBoolean(dr["BinArchivo"]),Convert.ToString(dr["ResumenDescripcion"]),Convert.ToString(dr["Nombre_Archivo"]),Convert.ToInt32(dr["Vistas"]),Convert.ToString(dr["TipoDocumento"]),Convert.ToString(dr["DetalleCambios"]),Convert.ToChar(dr["Estado"]),Convert.ToString(dr["UsuarioCrea"]),Convert.ToDateTime(dr["FechaCrea"]),Convert.ToString(dr["UsuarioModif"]),Convert.ToDateTime(dr["FechaModif"]),Convert.ToChar(dr["EstadoAprob"]),Convert.ToString(dr["CodPlantilla"]));
+            return new CDocumento(Convert.ToString(dr["CodDocumento"]), Convert.ToInt16(dr["Version"]), Convert.ToString(dr["CodPersona"]), Convert.ToString(dr["CodArea"]), Convert.ToString(dr["CodDocumentoFinal"]), Convert.ToString(dr["Cod_Tipo"]), Convert.ToString(dr["Titulo"]), Convert.ToString(dr["Descripcion"]), (byte[])(dr["BinArchivo"]),Convert.ToString(dr["ResumenDescripcion"]),Convert.ToString(dr["Nombre_Archivo"]),Convert.ToInt32(dr["Vistas"]),Convert.ToString(dr["TipoDocumento"]),Convert.ToString(dr["DetalleCambios"]), Convert.ToString(dr["CodSist_Gest"]), Convert.ToString(dr["Cod_Certificacion"]), Convert.ToChar(dr["Estado"]),Convert.ToString(dr["UsuarioCrea"]),Convert.ToDateTime(dr["FechaCrea"]),Convert.ToString(dr["UsuarioModif"]),Convert.ToDateTime(dr["FechaModif"]),Convert.ToChar(dr["EstadoAprob"]),Convert.ToString(dr["CodPlantilla"]));
         }
         
         public virtual CDocumento getDocumento(IDataReader dr)
         {
-            return new CDocumento(Convert.ToString(dr["CodDocumento"]),Convert.ToInt16(dr["Version"]),Convert.ToString(dr["CodPersona"]),Convert.ToString(dr["CodArea"]),Convert.ToString(dr["CodDocumentoFinal"]),Convert.ToString(dr["Cod_Tipo"]),Convert.ToString(dr["Titulo"]),Convert.ToString(dr["Descripcion"]),Convert.ToBoolean(dr["BinArchivo"]),Convert.ToString(dr["ResumenDescripcion"]),Convert.ToString(dr["Nombre_Archivo"]),Convert.ToInt32(dr["Vistas"]),Convert.ToString(dr["TipoDocumento"]),Convert.ToString(dr["DetalleCambios"]),Convert.ToChar(dr["Estado"]),Convert.ToString(dr["UsuarioCrea"]),Convert.ToDateTime(dr["FechaCrea"]),Convert.ToString(dr["UsuarioModif"]),Convert.ToDateTime(dr["FechaModif"]),Convert.ToChar(dr["EstadoAprob"]),Convert.ToString(dr["CodPlantilla"]));
+            return new CDocumento(Convert.ToString(dr["CodDocumento"]),Convert.ToInt16(dr["Version"]),Convert.ToString(dr["CodPersona"]),Convert.ToString(dr["CodArea"]),Convert.ToString(dr["CodDocumentoFinal"]),Convert.ToString(dr["Cod_Tipo"]),Convert.ToString(dr["Titulo"]),Convert.ToString(dr["Descripcion"]), (byte[])(dr["BinArchivo"]),Convert.ToString(dr["ResumenDescripcion"]),Convert.ToString(dr["Nombre_Archivo"]),Convert.ToInt32(dr["Vistas"]),Convert.ToString(dr["TipoDocumento"]),Convert.ToString(dr["DetalleCambios"]), Convert.ToString(dr["CodSist_Gest"]), Convert.ToString(dr["Cod_Certificacion"]), Convert.ToChar(dr["Estado"]),Convert.ToString(dr["UsuarioCrea"]),Convert.ToDateTime(dr["FechaCrea"]),Convert.ToString(dr["UsuarioModif"]),Convert.ToDateTime(dr["FechaModif"]),Convert.ToChar(dr["EstadoAprob"]),Convert.ToString(dr["CodPlantilla"]));
         }
         
         #region Metodos Principales
@@ -103,6 +103,17 @@ namespace GESTDOC.DataObjectsNet.Global
             list.Add(getDocumento(dr));
             return list;
             }
+        }
+        public virtual string MaxDocumento()
+        {
+            DataTable dtDatos = Db.ExecuteDataSet("Global.MaxDocumento").Tables[0];
+            if (dtDatos.Rows.Count > 0)
+            {
+                DataRow dr = dtDatos.Rows[0];
+                return Convert.ToString(dr["MaxDocumento"]);
+            }
+            else
+                return "";
         }
         #endregion
     }

@@ -8,6 +8,7 @@
     <PackageReference Include="EnterpriseLibrary.Data.NetCore" Version="6.3.2" />
     <PackageReference Include="log4net" Version="2.0.12" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Office.Interop.Word" Version="15.0.4797.1004" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
@@ -17,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\GESTDOC.BusinessObject\GESTDOC.BusinessObjects.csproj" />
     <ProjectReference Include="..\GESTDOC.FacadeNet\GESTDOC.FacadeNet.csproj" />
+    <ProjectReference Include="..\GESTDOC.FirmaDigital\GESTDOC.FirmaDigital.csproj" />
     <ProjectReference Include="..\GESTDOC.Utilis\GESTDOC.Utilis.csproj" />
   </ItemGroup>
 

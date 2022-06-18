@@ -105,5 +105,67 @@ namespace GESTDOC.WebApi.Controllers.Global
                 throw e;
             }
         }
+        [Route("Lista_X_Area/{CodArea}")]
+        [HttpGet()]
+        public virtual IList<CPersona> Lista_X_Area(string CodArea)
+        {
+            try
+            {
+                PersonaFacade faPersona = new PersonaFacade();
+                return faPersona.Lista_X_Area(CodArea);
+            }
+            catch (System.Exception e)
+            {
+                Logger.Fatal(e);
+                throw e;
+            }
+        }
+        [Route("PersonaBuscar/{CodPersona}/{Nombres}/{Apellido_Paterno}/{Apellido_Materno}/{CodArea}/{Nom_Area}/{Nivel}")]
+        [HttpGet()]
+        public virtual IList<CPersonaArea> PersonaBuscar(string CodPersona,string Nombres,string Apellido_Paterno,string Apellido_Materno, string CodArea, string Nom_Area, String Nivel)
+        {
+            string CodPersona_ = "", Nombres_ = "", Apellido_Paterno_ = "", Apellido_Materno_ = "", CodArea_ = "", Nom_Area_="",Nivel_="";
+
+            if (CodPersona == "*") { CodPersona_ = "";    } else { CodPersona_ = CodPersona; }
+            if (Nombres == "*") { Nombres_ = ""; } else { Nombres_ = Nombres; }
+            if (Apellido_Paterno == "*") { Apellido_Paterno_ = ""; } else { Apellido_Paterno_ = Apellido_Paterno; }
+            if (Apellido_Materno == "*") { Apellido_Materno_ = ""; } else { Apellido_Materno_ = Apellido_Materno; }
+            if (CodArea == "*") { CodArea_ = ""; } else { CodArea_ = CodArea; }
+            if (Nom_Area == "*") { Nom_Area_ = ""; } else { CodPersona_ = Nom_Area; }
+            if (Nivel == "*") { Nivel_ = ""; } else { Nivel_ = Nivel; }
+            try
+            {
+                PersonaFacade faPersona = new PersonaFacade();
+                return faPersona.PersonaBuscar(CodPersona_,Nombres_,Apellido_Paterno_,Apellido_Materno_,CodArea_,Nom_Area_,Nivel_);
+            }
+            catch (System.Exception e)
+            {
+                Logger.Fatal(e);
+                throw e;
+            }
+        }
+        [Route("ListaPersonaXArea/{CodPersona}/{Nombres}/{Apellido_Paterno}/{Apellido_Materno}/{CodArea}/{Nom_Area}")]
+        [HttpGet()]
+        public virtual IList<CPersonaXAr> ListaPersonaXArea(string CodPersona, string Nombres, string Apellido_Paterno, string Apellido_Materno, string CodArea, string Nom_Area)
+        {
+            string CodPersona_ = "", Nombres_ = "", Apellido_Paterno_ = "", Apellido_Materno_ = "", CodArea_ = "", Nom_Area_ = "";
+
+            if (CodPersona == "*") { CodPersona_ = ""; } else { CodPersona_ = CodPersona; }
+            if (Nombres == "*") { Nombres_ = ""; } else { Nombres_ = Nombres; }
+            if (Apellido_Paterno == "*") { Apellido_Paterno_ = ""; } else { Apellido_Paterno_ = Apellido_Paterno; }
+            if (Apellido_Materno == "*") { Apellido_Materno_ = ""; } else { Apellido_Materno_ = Apellido_Materno; }
+            if (CodArea == "*") { CodArea_ = ""; } else { CodArea_ = CodArea; }
+            if (Nom_Area == "*") { Nom_Area_ = ""; } else { CodPersona_ = Nom_Area; }
+            try
+            {
+                PersonaFacade faPersona = new PersonaFacade();
+                return faPersona.ListaPersonaXArea(CodPersona_, Nombres_, Apellido_Paterno_, Apellido_Materno_, CodArea_, Nom_Area_);
+            }
+            catch (System.Exception e)
+            {
+                Logger.Fatal(e);
+                throw e;
+            }
+        }
     }
 }

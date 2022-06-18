@@ -1,0 +1,7 @@
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FirmaDigital\bin\Debug\GESTDOC.FirmaDigital.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FirmaDigital\bin\Debug\GESTDOC.FirmaDigital.pdb
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FirmaDigital\obj\Debug\GESTDOC.FirmaDigital.csproj.AssemblyReference.cache
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FirmaDigital\obj\Debug\GESTDOC.FirmaDigital.csproj.CoreCompileInputs.cache
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FirmaDigital\obj\Debug\GESTDOC.FirmaDigital.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FirmaDigital\obj\Debug\GESTDOC.FirmaDigital.pdb
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FirmaDigital\obj\Debug\GESTDOC.FirmaDigital.csproj.ResolveComReference.cache

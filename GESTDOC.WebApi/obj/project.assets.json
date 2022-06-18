@@ -194,6 +194,15 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.Office.Interop.Word/15.0.4797.1004": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+        }
+      },
       "Microsoft.OpenApi/1.2.3": {
         "type": "package",
         "compile": {
@@ -818,6 +827,15 @@
           "bin/placeholder/GESTDOC.FacadeNet.dll": {}
         }
       },
+      "GESTDOC.FirmaDigital/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/GESTDOC.FirmaDigital.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GESTDOC.FirmaDigital.dll": {}
+        }
+      },
       "GESTDOC.Utilis/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1148,6 +1166,19 @@
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Microsoft.Office.Interop.Word/15.0.4797.1004": {
+      "sha512": "lavTOrMGK/o/t3+gGr7JuVrL8XDdnS0DwPLcYv/StOiysXO4L0C36IXTVtEJo1Mh9Aoxo9a8dgGcPi+faTlv0g==",
+      "type": "package",
+      "path": "microsoft.office.interop.word/15.0.4797.1004",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Microsoft.Office.Interop.Word.dll",
+        "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll",
+        "microsoft.office.interop.word.15.0.4797.1004.nupkg.sha512",
+        "microsoft.office.interop.word.nuspec"
       ]
     },
     "Microsoft.OpenApi/1.2.3": {
@@ -2211,6 +2242,11 @@
       "path": "../GESTDOC.FacadeNet/GESTDOC.FacadeNet.csproj",
       "msbuildProject": "../GESTDOC.FacadeNet/GESTDOC.FacadeNet.csproj"
     },
+    "GESTDOC.FirmaDigital/1.0.0": {
+      "type": "project",
+      "path": "../GESTDOC.FirmaDigital/GESTDOC.FirmaDigital.csproj",
+      "msbuildProject": "../GESTDOC.FirmaDigital/GESTDOC.FirmaDigital.csproj"
+    },
     "GESTDOC.Utilis/1.0.0": {
       "type": "project",
       "path": "../GESTDOC.Utilis/GESTDOC.Utilis.csproj",
@@ -2222,8 +2258,10 @@
       "EnterpriseLibrary.Data.NetCore >= 6.3.2",
       "GESTDOC.BusinessObjects >= 1.0.0",
       "GESTDOC.FacadeNet >= 1.0.0",
+      "GESTDOC.FirmaDigital >= 1.0.0",
       "GESTDOC.Utilis >= 1.0.0",
       "Microsoft.Extensions.Configuration.Json >= 6.0.0",
+      "Microsoft.Office.Interop.Word >= 15.0.4797.1004",
       "Newtonsoft.Json >= 13.0.1",
       "Swashbuckle.AspNetCore >= 5.6.3",
       "System.Configuration.ConfigurationManager >= 6.0.0",
@@ -2264,6 +2302,9 @@
             "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FacadeNet\\GESTDOC.FacadeNet.csproj": {
               "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FacadeNet\\GESTDOC.FacadeNet.csproj"
             },
+            "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FirmaDigital\\GESTDOC.FirmaDigital.csproj": {
+              "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FirmaDigital\\GESTDOC.FirmaDigital.csproj"
+            },
             "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.Utilis\\GESTDOC.Utilis.csproj": {
               "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.Utilis\\GESTDOC.Utilis.csproj"
             }
@@ -2287,6 +2328,10 @@
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
             "version": "[6.0.0, )"
+          },
+          "Microsoft.Office.Interop.Word": {
+            "target": "Package",
+            "version": "[15.0.4797.1004, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",
@@ -2327,7 +2372,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

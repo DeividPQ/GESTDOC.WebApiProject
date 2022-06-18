@@ -104,33 +104,39 @@ namespace GESTDOC.FacadeNet.Global
         }
         
         [DataObjectMethod(DataObjectMethodType.Delete)]
-        public virtual int Eliminar(String CodArea, Int16 Nivel, String CodAprobador)
+        public virtual int Eliminar(String CodArea,string Cod_Tipo, Int16 Nivel, String CodAprobador)
         {
-            return aprobador_Area.Eliminar(CodArea,Nivel,CodAprobador);
+            return aprobador_Area.Eliminar(CodArea, Cod_Tipo, Nivel,CodAprobador);
         }
         
         [DataObjectMethod(DataObjectMethodType.Select)]
-        public virtual CAprobador_Area Recuperar(String CodArea, Int16 Nivel, String CodAprobador)
+        public virtual CAprobador_Area Recuperar(String CodArea, String Cod_Tipo, Int16 Nivel, String CodAprobador)
         {
-            return aprobador_Area.Recuperar(CodArea,Nivel,CodAprobador);
+            return aprobador_Area.Recuperar(CodArea, Cod_Tipo, Nivel,CodAprobador);
         }
         #endregion
         
         #region Metodos Secundarios
-        public virtual bool Existe(String CodArea, Int16 Nivel, String CodAprobador)
+        public virtual bool Existe(String CodArea, String Cod_Tipo, Int16 Nivel, String CodAprobador)
         {
-            return aprobador_Area.Existe(CodArea,Nivel,CodAprobador);
+            return aprobador_Area.Existe(CodArea, Cod_Tipo, Nivel,CodAprobador);
         }
         
-        public virtual bool Existe(String CodArea, Int16 Nivel, String CodAprobador, out CAprobador_Area oAprobador_Area)
+        public virtual bool Existe(String CodArea, String Cod_Tipo, Int16 Nivel, String CodAprobador, out CAprobador_Area oAprobador_Area)
         {
-            return aprobador_Area.Existe(CodArea,Nivel,CodAprobador, out oAprobador_Area);
+            return aprobador_Area.Existe(CodArea, Cod_Tipo, Nivel,CodAprobador, out oAprobador_Area);
         }
         
         [DataObjectMethod(DataObjectMethodType.Select)]
         public virtual IList<CAprobador_Area> Listar()
         {
             return aprobador_Area.Listar();
+        }
+
+        [DataObjectMethod(DataObjectMethodType.Select)]
+        public virtual IList<CAprobador_X_Area> PersonaArea_Lista(string CodArea)
+        {
+            return aprobador_Area.PersonaArea_Lista(CodArea);
         }
         #endregion
     }

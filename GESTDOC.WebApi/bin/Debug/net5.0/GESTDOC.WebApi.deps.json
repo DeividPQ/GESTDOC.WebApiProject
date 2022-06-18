@@ -36,8 +36,10 @@
           "EnterpriseLibrary.Data.NetCore": "6.3.2",
           "GESTDOC.BusinessObjects": "1.0.0",
           "GESTDOC.FacadeNet": "1.0.0",
+          "GESTDOC.FirmaDigital": "1.0.0",
           "GESTDOC.Utilis": "1.0.0",
           "Microsoft.Extensions.Configuration.Json": "6.0.0",
+          "Microsoft.Office.Interop.Word": "15.0.4797.1004",
           "Newtonsoft.Json": "13.0.1",
           "Swashbuckle.AspNetCore": "5.6.3",
           "System.Configuration.ConfigurationManager": "6.0.0",
@@ -505,6 +507,17 @@
         }
       },
       "Microsoft.NETCore.Platforms/3.0.0-preview6.19303.8": {},
+      "Microsoft.Office.Interop.Word/15.0.4797.1004": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4797.1003"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Word.dll": {}
+        }
+      },
       "Microsoft.OpenApi/1.2.3": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -1088,6 +1101,14 @@
         },
         "compile": {
           "GESTDOC.FacadeNet.dll": {}
+        }
+      },
+      "GESTDOC.FirmaDigital/1.0.0": {
+        "runtime": {
+          "GESTDOC.FirmaDigital.dll": {}
+        },
+        "compile": {
+          "GESTDOC.FirmaDigital.dll": {}
         }
       },
       "GESTDOC.Utilis/1.0.0": {
@@ -2825,6 +2846,13 @@
       "path": "microsoft.netcore.platforms/3.0.0-preview6.19303.8",
       "hashPath": "microsoft.netcore.platforms.3.0.0-preview6.19303.8.nupkg.sha512"
     },
+    "Microsoft.Office.Interop.Word/15.0.4797.1004": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lavTOrMGK/o/t3+gGr7JuVrL8XDdnS0DwPLcYv/StOiysXO4L0C36IXTVtEJo1Mh9Aoxo9a8dgGcPi+faTlv0g==",
+      "path": "microsoft.office.interop.word/15.0.4797.1004",
+      "hashPath": "microsoft.office.interop.word.15.0.4797.1004.nupkg.sha512"
+    },
     "Microsoft.OpenApi/1.2.3": {
       "type": "package",
       "serviceable": true,
@@ -3088,6 +3116,11 @@
       "sha512": ""
     },
     "GESTDOC.FacadeNet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GESTDOC.FirmaDigital/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

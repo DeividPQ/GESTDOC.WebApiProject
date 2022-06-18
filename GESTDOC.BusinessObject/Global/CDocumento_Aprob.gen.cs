@@ -18,16 +18,18 @@ namespace GESTDOC.BusinessObjects.Global
     [Serializable()]
     public partial class CDocumento_Aprob
     {
-        
+        [DataMember()]
+        public String CodDocumento { get; set; }
+
         [DataMember()]
         public Int16 Version {get;set;}
         
         [DataMember()]
-        public String CodDocumento {get;set;}
-        
-        [DataMember()]
         public Int16 Nivel {get;set;}
-        
+
+        [DataMember()]
+        public String CodAprobador { get; set; }
+
         [DataMember()]
         public Char EstadoAprob {get;set;}
         
@@ -42,27 +44,24 @@ namespace GESTDOC.BusinessObjects.Global
         
         [DataMember()]
         public DateTime FechaModif {get;set;}
-        
-        [DataMember()]
-        public String CodAprobador {get;set;}
-        
+          
         #region Constructores
         // Constructores
         public CDocumento_Aprob()
         {
         }
         
-        public CDocumento_Aprob(Int16 Version_, String CodDocumento_, Int16 Nivel_, Char EstadoAprob_, String UsuarioCrea_, DateTime FechaCrea_, String UsuarioModif_, DateTime FechaModif_, String CodAprobador_)
+        public CDocumento_Aprob(String CodDocumento_,  Int16 Version_, Int16 Nivel_, String CodAprobador_, Char EstadoAprob_, String UsuarioCrea_, DateTime FechaCrea_, String UsuarioModif_, DateTime FechaModif_)
         {
-            Version = Version_;
             CodDocumento = CodDocumento_;
+            Version = Version_;
             Nivel = Nivel_;
+            CodAprobador = CodAprobador_;
             EstadoAprob = EstadoAprob_;
             UsuarioCrea = UsuarioCrea_;
             FechaCrea = FechaCrea_;
             UsuarioModif = UsuarioModif_;
             FechaModif = FechaModif_;
-            CodAprobador = CodAprobador_;
         }
         #endregion
     }

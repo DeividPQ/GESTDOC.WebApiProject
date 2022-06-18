@@ -37,6 +37,7 @@ namespace GESTDOC.WebApi.Controllers.Global
                 plantilla.Estado = oPlantilla.Estado;
                 plantilla.UsuarioCrea = oPlantilla.UsuarioCrea;
                 plantilla.UsuarioModif = oPlantilla.UsuarioModif;
+                plantilla.Cod_Tipo = oPlantilla.Cod_Tipo;
                 var files = oPlantilla.Files;
                 bool EstadoCre = false;
                 string[] formato = files.FileName.Split('.');

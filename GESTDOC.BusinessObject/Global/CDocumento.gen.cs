@@ -44,7 +44,7 @@ namespace GESTDOC.BusinessObjects.Global
         public String Descripcion {get;set;}
         
         [DataMember()]
-        public Boolean BinArchivo {get;set;}
+        public Byte[] BinArchivo {get;set;}
         
         [DataMember()]
         public String ResumenDescripcion {get;set;}
@@ -60,7 +60,13 @@ namespace GESTDOC.BusinessObjects.Global
         
         [DataMember()]
         public String DetalleCambios {get;set;}
-        
+
+        [DataMember()]
+        public String CodSist_Gest { get; set; }
+
+        [DataMember()]
+        public String Cod_Certificacion { get; set; }
+
         [DataMember()]
         public Char Estado {get;set;}
         
@@ -96,13 +102,15 @@ namespace GESTDOC.BusinessObjects.Global
                     String CodDocumentoFinal_, 
                     String Cod_Tipo_, 
                     String Titulo_, 
-                    String Descripcion_, 
-                    Boolean BinArchivo_, 
+                    String Descripcion_,
+                    Byte[] BinArchivo_, 
                     String ResumenDescripcion_, 
                     String Nombre_Archivo_, 
                     Int32 Vistas_, 
                     String TipoDocumento_, 
                     String DetalleCambios_, 
+                    String CodSist_Gest_,
+                    String Cod_Certificacion_,
                     Char Estado_, 
                     String UsuarioCrea_, 
                     DateTime FechaCrea_, 
@@ -125,6 +133,8 @@ namespace GESTDOC.BusinessObjects.Global
             Vistas = Vistas_;
             TipoDocumento = TipoDocumento_;
             DetalleCambios = DetalleCambios_;
+            CodSist_Gest = CodSist_Gest_;
+            Cod_Certificacion = Cod_Certificacion_;
             Estado = Estado_;
             UsuarioCrea = UsuarioCrea_;
             FechaCrea = FechaCrea_;

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KstPpgzmPr969iDUHFZuclnkhOg5e/22e5V3iorwQ278nuz+P/9ylk3fGryeD5ec/wAhirxCs26/UnF4dNiEFA==",
+  "dgSpecHash": "EIrdzTMy8RaVeSEQnesRbB/13w2waIirvfrksRScEjbyUiMeL/M8GlyC8PSsLmOMOUGBRCcPB/yRzR5sGoSMqw==",
   "success": true,
   "projectFilePath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.WebApi\\GESTDOC.WebApi.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\11356\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
     "C:\\Users\\11356\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\11356\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0-preview6.19303.8\\microsoft.netcore.platforms.3.0.0-preview6.19303.8.nupkg.sha512",
+    "C:\\Users\\11356\\.nuget\\packages\\microsoft.office.interop.word\\15.0.4797.1004\\microsoft.office.interop.word.15.0.4797.1004.nupkg.sha512",
     "C:\\Users\\11356\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\11356\\.nuget\\packages\\microsoft.qualitytools.testing.fakes\\16.11.230815\\microsoft.qualitytools.testing.fakes.16.11.230815.nupkg.sha512",
     "C:\\Users\\11356\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

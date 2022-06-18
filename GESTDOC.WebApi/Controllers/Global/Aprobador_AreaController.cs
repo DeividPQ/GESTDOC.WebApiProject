@@ -44,12 +44,12 @@ namespace GESTDOC.WebApi.Controllers.Global
         
         [Route("Eliminar/{CodArea}/{Nivel}/{CodAprobador}")]
         [HttpGet()]
-        public virtual int Eliminar(String CodArea, Int16 Nivel, String CodAprobador)
+        public virtual int Eliminar(String CodArea, String Cod_Tipo, Int16 Nivel, String CodAprobador)
         {
             try
             {
                 Aprobador_AreaFacade faAprobador_Area = new Aprobador_AreaFacade();
-                return faAprobador_Area.Eliminar(CodArea,Nivel,CodAprobador);
+                return faAprobador_Area.Eliminar(CodArea, Cod_Tipo, Nivel,CodAprobador);
             }
             catch (System.Exception e)
             {
@@ -60,12 +60,12 @@ namespace GESTDOC.WebApi.Controllers.Global
         
         [Route("Recuperar/{CodArea}/{Nivel}/{CodAprobador}")]
         [HttpGet()]
-        public virtual CAprobador_Area Recuperar(String CodArea, Int16 Nivel, String CodAprobador)
+        public virtual CAprobador_Area Recuperar(String CodArea, String Cod_Tipo, Int16 Nivel, String CodAprobador)
         {
             try
             {
                 Aprobador_AreaFacade faAprobador_Area = new Aprobador_AreaFacade();
-                return faAprobador_Area.Recuperar(CodArea,Nivel,CodAprobador);
+                return faAprobador_Area.Recuperar(CodArea,Cod_Tipo,Nivel,CodAprobador);
             }
             catch (System.Exception e)
             {
@@ -76,12 +76,12 @@ namespace GESTDOC.WebApi.Controllers.Global
         
         [Route("Existe/{CodArea}/{Nivel}/{CodAprobador}")]
         [HttpGet()]
-        public virtual bool Existe(String CodArea, Int16 Nivel, String CodAprobador)
+        public virtual bool Existe(String CodArea, String Cod_Tipo, Int16 Nivel, String CodAprobador)
         {
             try
             {
                 Aprobador_AreaFacade faAprobador_Area = new Aprobador_AreaFacade();
-                return faAprobador_Area.Existe(CodArea,Nivel,CodAprobador);
+                return faAprobador_Area.Existe(CodArea,Cod_Tipo,Nivel,CodAprobador);
             }
             catch (System.Exception e)
             {
@@ -105,5 +105,22 @@ namespace GESTDOC.WebApi.Controllers.Global
                 throw e;
             }
         }
+        [Route("PersonaArea_Lista/{CodArea}")]
+        [HttpGet()]
+        public virtual IList<CAprobador_X_Area> PersonaArea_Lista(string CodArea)
+        {
+            if (CodArea == "*") { CodArea = ""; }
+            try
+            {
+                Aprobador_AreaFacade faAprobador_Area = new Aprobador_AreaFacade();
+                return faAprobador_Area.PersonaArea_Lista(CodArea);
+            }
+            catch (System.Exception e)
+            {
+                Logger.Fatal(e);
+                throw e;
+            }
+        }
+
     }
 }

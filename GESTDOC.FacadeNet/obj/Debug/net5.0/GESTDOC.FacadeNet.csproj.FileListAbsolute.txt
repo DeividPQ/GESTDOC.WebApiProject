@@ -1,9 +1,11 @@
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\bin\Debug\net5.0\GESTDOC.FacadeNet.deps.json
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\bin\Debug\net5.0\GESTDOC.FacadeNet.dll
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\bin\Debug\net5.0\GESTDOC.FacadeNet.pdb
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\bin\Debug\net5.0\GESTDOC.BusinessObjects.dll
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\bin\Debug\net5.0\GESTDOC.DataObjectsNet.dll
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\bin\Debug\net5.0\LibreriaBSNet.v3.dll
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\bin\Debug\net5.0\LibreriaBSNetCore.v1.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\bin\Debug\net5.0\GESTDOC.BusinessObjects.pdb
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\bin\Debug\net5.0\GESTDOC.DataObjectsNet.pdb
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\obj\Debug\net5.0\GESTDOC.FacadeNet.csproj.AssemblyReference.cache
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\obj\Debug\net5.0\GESTDOC.FacadeNet.GeneratedMSBuildEditorConfig.editorconfig
@@ -12,8 +14,6 @@ D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\obj\Debug\net5.0\GE
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\obj\Debug\net5.0\GESTDOC.FacadeNet.csproj.CoreCompileInputs.cache
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\obj\Debug\net5.0\GESTDOC.FacadeNet.csproj.CopyComplete
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\obj\Debug\net5.0\GESTDOC.FacadeNet.dll
-D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\obj\Debug\net5.0\refint\GESTDOC.FacadeNet.dll
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\obj\Debug\net5.0\GESTDOC.FacadeNet.pdb
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\obj\Debug\net5.0\ref\GESTDOC.FacadeNet.dll
-D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\bin\Debug\net5.0\GESTDOC.BusinessObjects.dll
-D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\bin\Debug\net5.0\GESTDOC.BusinessObjects.pdb
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.FacadeNet\obj\Debug\net5.0\refint\GESTDOC.FacadeNet.dll

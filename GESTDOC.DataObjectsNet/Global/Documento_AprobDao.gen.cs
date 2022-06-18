@@ -22,12 +22,12 @@ namespace GESTDOC.DataObjectsNet.Global
         
         public virtual CDocumento_Aprob getDocumento_Aprob(DataRow dr)
         {
-            return new CDocumento_Aprob(Convert.ToInt16(dr["Version"]),Convert.ToString(dr["CodDocumento"]),Convert.ToInt16(dr["Nivel"]),Convert.ToChar(dr["EstadoAprob"]),Convert.ToString(dr["UsuarioCrea"]),Convert.ToDateTime(dr["FechaCrea"]),Convert.ToString(dr["UsuarioModif"]),Convert.ToDateTime(dr["FechaModif"]),Convert.ToString(dr["CodAprobador"]));
+            return new CDocumento_Aprob(Convert.ToString(dr["CodDocumento"]), Convert.ToInt16(dr["Version"]),Convert.ToInt16(dr["Nivel"]), Convert.ToString(dr["CodAprobador"]), Convert.ToChar(dr["EstadoAprob"]),Convert.ToString(dr["UsuarioCrea"]),Convert.ToDateTime(dr["FechaCrea"]),Convert.ToString(dr["UsuarioModif"]),Convert.ToDateTime(dr["FechaModif"]));
         }
         
         public virtual CDocumento_Aprob getDocumento_Aprob(IDataReader dr)
         {
-            return new CDocumento_Aprob(Convert.ToInt16(dr["Version"]),Convert.ToString(dr["CodDocumento"]),Convert.ToInt16(dr["Nivel"]),Convert.ToChar(dr["EstadoAprob"]),Convert.ToString(dr["UsuarioCrea"]),Convert.ToDateTime(dr["FechaCrea"]),Convert.ToString(dr["UsuarioModif"]),Convert.ToDateTime(dr["FechaModif"]),Convert.ToString(dr["CodAprobador"]));
+            return new CDocumento_Aprob(Convert.ToString(dr["CodDocumento"]), Convert.ToInt16(dr["Version"]), Convert.ToInt16(dr["Nivel"]), Convert.ToString(dr["CodAprobador"]), Convert.ToChar(dr["EstadoAprob"]), Convert.ToString(dr["UsuarioCrea"]), Convert.ToDateTime(dr["FechaCrea"]), Convert.ToString(dr["UsuarioModif"]), Convert.ToDateTime(dr["FechaModif"]));
         }
         
         #region Metodos Principales

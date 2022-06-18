@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -136,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -197,8 +197,23 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FirmaDigital\\GESTDOC.FirmaDigital.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FirmaDigital\\GESTDOC.FirmaDigital.csproj",
+        "projectName": "GESTDOC.FirmaDigital",
+        "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FirmaDigital\\GESTDOC.FirmaDigital.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
       }
     },
     "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.Utilis\\GESTDOC.Utilis.csproj": {
@@ -251,7 +266,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -285,6 +300,9 @@
               "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FacadeNet\\GESTDOC.FacadeNet.csproj": {
                 "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FacadeNet\\GESTDOC.FacadeNet.csproj"
               },
+              "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FirmaDigital\\GESTDOC.FirmaDigital.csproj": {
+                "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.FirmaDigital\\GESTDOC.FirmaDigital.csproj"
+              },
               "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.Utilis\\GESTDOC.Utilis.csproj": {
                 "projectPath": "D:\\Proyecto IncaTops\\GESTDOC.WebApiProject\\GESTDOC.Utilis\\GESTDOC.Utilis.csproj"
               }
@@ -308,6 +326,10 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.Office.Interop.Word": {
+              "target": "Package",
+              "version": "[15.0.4797.1004, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -348,7 +370,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

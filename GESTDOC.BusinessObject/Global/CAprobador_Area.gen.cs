@@ -23,6 +23,9 @@ namespace GESTDOC.BusinessObjects.Global
         public String CodArea {get;set;}
         
         [DataMember()]
+        public String Cod_Tipo { get; set; }
+
+        [DataMember()]
         public Int16 Nivel {get;set;}
         
         [DataMember()]
@@ -49,9 +52,10 @@ namespace GESTDOC.BusinessObjects.Global
         {
         }
         
-        public CAprobador_Area(String CodArea_, Int16 Nivel_, String CodAprobador_, Char Estado_, String UsuarioCrea_, DateTime FechaCrea_, String UsuarioModif_, DateTime FechaModif_)
+        public CAprobador_Area(String CodArea_,String Cod_Tipo_, Int16 Nivel_, String CodAprobador_, Char Estado_, String UsuarioCrea_, DateTime FechaCrea_, String UsuarioModif_, DateTime FechaModif_)
         {
             CodArea = CodArea_;
+            Cod_Tipo = Cod_Tipo_;
             Nivel = Nivel_;
             CodAprobador = CodAprobador_;
             Estado = Estado_;

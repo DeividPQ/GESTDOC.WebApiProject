@@ -1,12 +1,12 @@
-D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\GESTDOC.BusinessObjects.csproj.AssemblyReference.cache
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\bin\Debug\net5.0\GESTDOC.BusinessObjects.deps.json
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\bin\Debug\net5.0\GESTDOC.BusinessObjects.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\bin\Debug\net5.0\GESTDOC.BusinessObjects.pdb
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\GESTDOC.BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\GESTDOC.BusinessObjects.AssemblyInfoInputs.cache
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\GESTDOC.BusinessObjects.AssemblyInfo.cs
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\GESTDOC.BusinessObjects.csproj.CoreCompileInputs.cache
-D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\bin\Debug\net5.0\GESTDOC.BusinessObjects.deps.json
-D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\bin\Debug\net5.0\GESTDOC.BusinessObjects.dll
-D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\bin\Debug\net5.0\GESTDOC.BusinessObjects.pdb
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\GESTDOC.BusinessObjects.dll
-D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\refint\GESTDOC.BusinessObjects.dll
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\GESTDOC.BusinessObjects.pdb
 D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\ref\GESTDOC.BusinessObjects.dll
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\GESTDOC.BusinessObjects.csproj.AssemblyReference.cache
+D:\Proyecto IncaTops\GESTDOC.WebApiProject\GESTDOC.BusinessObject\obj\Debug\net5.0\refint\GESTDOC.BusinessObjects.dll
